@@ -6,7 +6,7 @@ function getparagraph1(){
         inputs.push(document.getElementById("para" + i).value);
     }
 
-    document.getElementById("showpara1").innerHTML = input.join(". ")
+    document.getElementById("showpara1").innerHTML = inputs.join(". ");
 }
 
 function getparagraph2(){
@@ -17,5 +17,5 @@ function getparagraph2(){
         inputs.push(document.getElementById("paraa" + i).value);
     }
 
-    document.getElementById("showpara2").innerHTML = input.join(". ")
+    document.getElementById("showpara2").innerHTML = inputs.join(". ");
 }
